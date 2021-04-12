@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Job Application</title>
+    </head>
+    <body>
+        <h3>Job Application</h3>
+        Job Information
+        <br>
+        Job of Interest:
+        <select name="jobpref">
+            <option selected hidden style="display:none">Please select ..</option>
+            <option value=1 >Software Development
+            <option value=2 >Software Testing
+            <option value=3 >Database Management
+            <option value=4 >Accounts
+            <option value=5 >DevOps
+            </select>
+        <br>
+        Referral Source: 
+        <select name="jobref"><option>
+            <option selected hidden style="display:none">Please select ..</option>
+            <option value=1 >Employee Referral
+            <option value=2 >LinkedIn
+            <option value=3 >Career Section
+            <option value=4 >Campus Placement
+            <option value=5 >Job Board
+            </select>
+        <br>
+        Availability: 
+        <select name="jobavail"><option>
+            <option selected hidden style="display:none">Please select ..</option>
+            <option value=1 > Immediate Joining
+            <option value=2 >1 week
+            <option value=3 >1 month
+            <option value=4 >2 months
+            </select>
+        <br>
+        Location:
+        <select name="jobloc"><option>
+            <option selected hidden style="display:none">Please select ..</option>
+            <option value=1 >Noida
+            <option value=2 >Gurugram
+            <option value=3 >Pune
+            <option value=4 >Hyderabad
+            <option value=5 >Bengaluru
+            </select>
+        <br>
+        Personal Information<br>
+        First Name:
+        <input type ="text" name="FirstName" size=35 maxlength=35 value=""><br>
+        Last Name:
+        <input type ="text" name="LastName" size=35 maxlength=35 value=""><br>
+        Street Address: 
+        <input type ="text" name="StreetAdd" size=35 maxlength=35 value=""><br>
+        City:
+        <input type ="text" name="City" size=35 maxlength=35 value=""><br>
+        State:
+        <input type ="text" name="State" size=20 maxlength=20 value=""><br>
+        Postal Code:
+        <input type ="number" name="pincode" size=20 maxlength=6 value=""><br>
+        Telephone:
+        <input type="number" name="telno" size=20 maxlength=12 value=""><br>
+        Email Address:
+        <input type ="text" name="email" size=35 maxlength=35 value=""><br>
+        Citizenship:
+        <input type ="text" name="citizen" size=15 maxlength=15 value=""><br>
+        Have you ever been convicted of a felony?
+        <input type="radio" name="exe" value=1>Yes 
+        <input type="radio" name="exe" value=2>No
+        <br>
+        Are you willing to relocate?
+        <input type="radio" name="exe" value=1>Yes 
+        <input type="radio" name="exe" value=2>No
+        <br>
+        Employment History
+        <br>
+        Provide your employment history starting with the company for which you have most recently worked.<br>
+        Company 1<br>
+        Company Name:
+        <input type ="text" name="comp1" size=25 maxlength=25 value=""><br>
+        Start Date:
+        <input type ="date" name="sdate" size="10" maxlength=10 value=""><br>
+        End Date:
+        <input type ="date" name="edate" size="10" maxlength=10 value=""><br>
+        Responsibilities:
+        <textarea name="Comments" cols=30 rows=4></textarea> </br></br>
+        <input type="submit" value="Submit Form">
+
+    </body>
+</html>
