@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <style>
+            body{
+                background-color: silver;
+            }
+            .login_form{
+                position: relative;
+                left: 400px;
+                top: 90px;
+                width: 500px;
+                height: 450px;
+                background-color: white;
+            }
+            input{
+                position: relative;
+                left: 40px;
+                width:70%;
+                padding:15px;
+                margin:none;
+                background: whitesmoke;
+                font-family: Arial;
+                border-radius: 5px;
+                border-color: rgba(0, 0, 0, 0.1);
+            }
+            .header{
+                padding: 2%;
+            }
+            button{
+                position: relative;
+                left: 20px;
+                background: darkslateblue;
+                border: none;
+                border-radius: 5px;
+                padding: 15px 170px;
+                margin: 5%;
+                color: white;
+                font-family: sans-serif;
+            }
+            .a{
+                position: absolute;
+                left:-130px;
+                top: 192px;
+                font-family: sans-serif;
+            }
+            label{
+                position: relative;
+                left: 60px;
+                top:5px;
+            }
+            h1{
+                font-family:fantasy;
+                position: relative;
+                left:40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="login_form">
+            <div class="header"><h1>Please Login</h1></div>
+            <form action="#" method ="post">
+                <input type="text" name="UserName" placeholder="Email">
+                <input type="password" name="password" placeholder="Password"><br>
+                <input class="a" type="checkbox" id="Remember" name="exe" value="Yes">
+                <label for="Remember">Remember me</label></br>
+                <button type="submit">Login</button>
+            </div>
+            </form>
+    </body>
+</html>

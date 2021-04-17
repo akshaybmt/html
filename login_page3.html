@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <style>
+            body{
+                background-color: skyblue;
+                font-family: "Poppins", sans-serif;
+            }
+            .login_form{
+                position: relative;
+                left:400px;
+                top:90px;
+                width:500px;
+                height: 450px;
+                background-color: white;
+                border-radius: 10px;
+            }
+            input{
+                position: relative;
+                left: 50px;
+                width:70%;
+                padding:15px;
+                margin: 1px;;
+                background: whitesmoke;
+                font-family: Arial;
+                border-radius: 5px;
+                text-align: center;
+                border-color: rgba(0, 0, 0, 0.1);
+            }
+            button{
+                position: relative;
+                left: 60px;
+                background: skyblue;
+                border: none;
+                border-radius: 5px;
+                padding: 15px 130px;
+                margin: 5%;
+                color: white;
+                font-family: sans-serif;
+            }
+            #formfooter{
+                position: relative;
+                top:100px;
+                background-color: whitesmoke;
+                border-top: 1px solid lightblue;
+                padding: 30px;
+                text-align: center;
+                border-radius: 0 0 10px 10px;
+            }
+            .header{
+                position: relative;
+                top: 15px;
+                left: -10px;
+                text-align: center;
+            }
+            a{
+                color: cadetblue;
+                font-weight: 400;
+                text-decoration: none;
+            }
+            p{
+                position: relative;
+                left: -10px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="login_form">
+            <div class="header"><h4>SIGN IN     SIGN UP</h4></div>
+            <form action="#" method ="post">
+                <p><strong>User Icon</strong></p>
+                <input type="text" name="UserName" placeholder="login">
+                <input type="password" name="password" placeholder="Password"><br>
+                <button type="submit">Login</button>
+            </form>
+            <div id="formfooter">
+                <a class="footer" href="#">Forgot Password?</a>
+              </div>
+        </div>
+    </body>
+</html>

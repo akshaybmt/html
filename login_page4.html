@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+        <style>
+            body{
+                background-color: yellow;
+            }
+            #profilepic{
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                position: absolute;
+                top: -60px;
+                left: 180px; 
+           }
+            .login_form{
+                position: relative;
+                left:400px;
+                top:100px;
+                width:500px;
+                height: 450px;
+                background-color: white;
+                border-radius: 10px;
+            }
+            input{
+                position: relative;
+                top: 90px;
+                left: 50px;
+                width:70%;
+                padding:15px;
+                margin: 1px;;
+                background: whitesmoke;
+                font-family: Arial;
+                border-radius: 5px;
+                border-color: rgba(0, 0, 0, 0.1);
+            }
+            .header{
+                position: relative;
+                top: 90px;
+                left: -10px;
+                text-align: center;
+            }
+            button{
+                position: relative;
+                left: 30px;
+                top: 80px;
+                background:green;
+                border: none;
+                border-radius: 5px;
+                padding: 15px 170px;
+                margin: 5%;
+                color: white;
+                font-family: arial;
+            }
+            #formfooter
+            {
+                position:relative;
+                top: 90px;
+                text-align: center;
+            }
+            a{
+                text-decoration: none;
+                font-weight: 400;
+                color: gray;
+                font-family: arial;
+            }
+            h3{
+                font-weight: 500;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <div class="icon">
+            
+        </div>
+        <div class="login_form">
+            <img src="https://www.seekpng.com/png/full/138-1387775_login-to-do-whatever-you-want-login-icon.png" id="profilepic">
+            <div class="header"><h3>Member Login</h3></div>
+            <form action="#" method ="post">
+                <input type="text" name="UserName" placeholder="Username">
+                <input type="password" name="password" placeholder="********"><br>
+                <button type="submit">LOGIN</button>
+            </form>
+            <div id="formfooter">
+                <a class="footer" href="#">Forgot Password?</a>
+              </div>
+
+    </body>
+</html>

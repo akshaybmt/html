@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+            body{
+                background-color: darkslategray;
+            }
+            .login_form{
+                position: relative;
+                left:200px;
+                top:100px;
+                width:900px;
+                height: 450px;
+                background-color: white;
+                border-radius: 10px;
+            }
+            .b input{
+                position: relative;
+                top: 90px;
+                left: 50px;
+                width:40%;
+                padding:14px 2px;
+                margin: 8px;;
+                background: whitesmoke;
+                font-family: Arial;
+                border-radius: 5px;
+                border-color: rgba(0, 0, 0, 0.1);
+            }
+            form button{
+                position: relative;
+                left: 10px;
+                top: 80px;
+                background:green;
+                border: none;
+                border-radius: 5px;
+                padding: 15px 160px;
+                margin: 5%;
+                color: white;
+                font-family: arial;
+            }
+            .a{
+                position: relative;
+                top: 60px;
+                left: 50px;
+            }
+            label{
+                position: relative;
+                top: 59px;
+                left: 50px;
+                color: gray;
+            }
+            a.a{
+                position: relative;
+                left: 100px;
+                font-weight: 400;
+                text-decoration: none;  
+                color: gray;
+            }
+            .header{
+                position: absolute;
+                left: 70px;
+                top: 30px;
+                font-family: sans-serif;
+                font-weight: 400;
+            }
+            .header2{
+                position: absolute;
+                left:570px;
+                top: 50px;
+            }
+            a.header2{
+                text-decoration: none;
+                font-weight: 300;
+                color: gray;
+            }
+            .right_box{
+                position: absolute;
+                top: 200px;
+                right:270px;
+                box-sizing: border-box;
+                width: 300px;
+                height: 400px;
+                padding: 40px;
+                display: block;
+                font-size: 28px;
+                margin-bottom: 40px;
+
+            }
+            button.social{
+                margin-bottom: 20px;
+                width: 220px;
+                height: 36px;
+                border: none;
+                font-family: sans-serif;
+                font-weight: 500;
+                color: white;
+                cursor: pointer;
+            }
+            .facebook{
+                background: #32508e;
+                
+            }
+            .twitter{
+                background: #55acee;
+            }
+            .google{
+                background: #dd4b39;
+            }
+            .or{
+                position: absolute;
+                color: gray;
+                left: 700px;
+                top: 300px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="login_form">
+            <div class="header"><h4>Login into your account</h4></div>
+            <form action="#" method ="post">
+                <div class = b>
+                <input type="text" name="UserName" placeholder="login"><br>
+                <input type="password" name="password" placeholder="Password"><br>
+                <button type="submit">Login</button>
+                </div>
+            </form>
+            <div id="formfooter">
+                <input class="a" type="checkbox" id="Remember" name="exe" value="Yes">
+                <label for="Remember">Remember me</label>
+                <a class="a" href="#">Forgot Password?</a>
+              </div>
+              <a class="header2" href="#">Don't have an account Sign Up</a>
+        </div>
+        <div class="right_box">
+            <button class="social facebook"><i class="fa fa-facebook fa-fw"></i>Sign in with Facebook</button>
+            <button class="social twitter"><i class="fa fa-twitter fa-fw"></i>Sign in with Twitter</button>
+            <button class="social google"><i class="fa fa-google fa-fw"></i>Sign in with Google+</button>
+        </div>
+        <div class="or">
+            <h4>Or</h4>
+        </div>
+
+    </body>
+</html>
